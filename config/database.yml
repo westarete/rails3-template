@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
-  database: project_development
+  database: PROJECT_development
 
 test:
   adapter: postgresql
-  database: project_test
+  database: PROJECT_test

@@ -26,3 +26,19 @@ config.action_mailer.delivery_method = :test
 # This is necessary if your schema can't be completely dumped by the schema dumper,
 # like if you have constraints or database-specific column types
 # config.active_record.schema_format = :sql
+
+# Rspec testing framework.
+config.gem 'rspec',       :lib => false, :version => '1.2.9'
+config.gem 'rspec-rails', :lib => false, :version => '1.2.9'
+
+# Shoulda has rspec-compatible matchers for ActiveRecord.
+config.gem 'shoulda', :version => '2.10.2'
+
+# Replacement for fixtures.
+config.gem 'machinist', :version => '1.0.6'
+
+# Generate fake test data.
+config.gem 'faker', :version => '0.3.1'
+
+# Test coverage reporting.
+config.gem 'rcov', :version => '0.9.7.1'

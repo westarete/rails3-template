@@ -15,3 +15,12 @@ config.action_controller.perform_caching             = false
 
 # Don't care if the mailer can't send
 config.action_mailer.raise_delivery_errors = false
+
+# Creates comment blocks at top of models and specs describing the schema.
+config.gem 'annotate', :version => '2.4.0'
+
+# Simplify deployment recipes.
+config.gem 'capistrano-helpers', :version => '0.3.2'
+
+# Performance tuning (visit http://localhost:3000/newrelic).
+config.gem 'newrelic_rpm', :version => '2.9.9'

@@ -22,7 +22,7 @@ config.action_controller.allow_forgery_protection    = false
 config.action_mailer.delivery_method = :test
 
 config.gem 'cucumber-rails',   :lib => false, :version => '0.2.3'
-config.gem 'database_cleaner', :lib => false, :version => '0.2.3'
+config.gem 'database_cleaner', :lib => false, :version => '0.4.1'
 config.gem 'webrat',           :lib => false, :version => '0.6.0'
 config.gem 'rspec',            :lib => false, :version => '1.2.9'
 config.gem 'rspec-rails',      :lib => false, :version => '1.2.9'

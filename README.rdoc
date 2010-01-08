@@ -25,7 +25,7 @@ To start a new project based off of this template:
 3. Do a global find/replace in the project for "PROJECT" and replace it with the short name of your project (the basename for the github project, preferrably). For example, "blog".
 4. Replace the contents of this README with a description of your project.
 
-== Copyright
+== Legal
 
 Copyright 2009 by West Arete Computing, Inc.
 

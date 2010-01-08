@@ -1,17 +1,19 @@
 = Rails Template
 
 This is the empty Rails application that West Arete Computing usually uses 
-for their new projects. It includes the following features:
+for their new projects.
 
+== Features
+
+* haml/sass
+* compass
+* jquery
 * rspec
 * cucumber
-* compass
-* haml/sass
 * version plugin
 * capistrano setup for staging and beta
 * newrelic RPM for performance tuning
 * annotate
-* jquery
 
 == Instructions
 

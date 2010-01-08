@@ -11,6 +11,7 @@ for their new projects. It includes the following features:
 * capistrano setup for staging and beta
 * newrelic RPM for performance tuning
 * annotate
+* jquery
 
 == Instructions
 

@@ -10,7 +10,7 @@ for their new projects.
 * jquery
 * rspec
 * cucumber
-* redhillonrails_core plugin (support for PostgreSQL foreign keys)
+* redhillonrails_core plugin (support for foreign keys)
 * version plugin
 * capistrano setup for staging and beta
 * newrelic RPM for performance tuning

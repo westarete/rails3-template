@@ -5,6 +5,3 @@ development:
 test: &TEST
   adapter: postgresql
   database: PROJECT_test
-
-cucumber:
-  <<: *TEST

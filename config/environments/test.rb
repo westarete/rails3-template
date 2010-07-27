@@ -28,11 +28,14 @@ config.action_mailer.delivery_method = :test
 # config.active_record.schema_format = :sql
 
 # Rspec testing framework.
-config.gem 'rspec',       :lib => false, :version => '1.2.9'
-config.gem 'rspec-rails', :lib => false, :version => '1.2.9'
+config.gem 'rspec',       :lib => false, :version => '1.3.0'
+config.gem 'rspec-rails', :lib => false, :version => '1.3.2'
+
+# Capybara, for integration tests.
+config.gem 'capybara', :version => '0.3.9'
 
 # Shoulda has rspec-compatible matchers for ActiveRecord.
-config.gem 'shoulda', :version => '2.10.2'
+config.gem 'shoulda', :version => '2.11.1'
 
 # Replacement for fixtures.
 config.gem 'machinist', :version => '1.0.6'
@@ -41,4 +44,4 @@ config.gem 'machinist', :version => '1.0.6'
 config.gem 'faker', :version => '0.3.1'
 
 # Test coverage reporting.
-config.gem 'rcov', :version => '0.9.7.1'
+config.gem 'rcov', :version => '0.9.8'

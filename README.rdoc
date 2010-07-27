@@ -9,7 +9,7 @@ for their new projects.
 * compass
 * jquery
 * rspec
-* cucumber
+* capybara
 * redhillonrails_core plugin (support for foreign keys)
 * version plugin
 * capistrano setup for staging and beta

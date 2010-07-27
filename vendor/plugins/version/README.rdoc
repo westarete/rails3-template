@@ -25,7 +25,6 @@ This plugin is fairly simple and makes some naïve assumptions:
 
 * the project uses git and should push and pull from origin master
 * you're using rspec
-* you're using cucumber
  
 == Usage
 

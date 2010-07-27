@@ -1,7 +1,7 @@
 # Be sure to restart your server when you modify this file
 
 # Specifies gem version of Rails to use when vendor/rails is not present
-RAILS_GEM_VERSION = '2.3.5' unless defined? RAILS_GEM_VERSION
+RAILS_GEM_VERSION = '2.3.8' unless defined? RAILS_GEM_VERSION
 
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
@@ -17,13 +17,13 @@ Rails::Initializer.run do |config|
   # Specify gems that this application depends on and have them installed with rake gems:install
 
   # Alternative HTML and CSS template engine.
-  config.gem 'haml', :version => '2.2.16'
+  config.gem 'haml', :version => '2.2.15'
   
   # CSS framework.
   config.gem 'compass', :version => '0.8.17'
 
   # Hoptoad notifier
-  config.gem 'hoptoad_notifier', :version => '2.1.3'
+  config.gem 'hoptoad_notifier', :version => '2.3.2'
 
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named
